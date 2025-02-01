@@ -45,15 +45,17 @@ div {
     text-align: left;
     margin: 0px 50px 0px 0px;
     border-width: 2px 5px 0px 0px;
-    h2 { color: #C4C4C4; }
-    p { color: #C4C4C4; }
+    color: #C4C4C4;
+}
+h2.blue {
+    color: #C4C4C4;
 }
 .yellow {
     background-color: #ffff00;
     text-align: right;
     margin: 0px 0px 0px 50px;
     border-width: 0px 0px 2px 5px;
-    p { color: #707070; }
+    color: #707070;
 }
 .green {
     background-color: #008500;
@@ -65,9 +67,9 @@ footer {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
     border: 5px solid #ffffff;
-    p {
-        font-size: 20px;
-        text-align: right;
-        padding: 15px 15px 15px 0px;
-    }
+}
+p.footer {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
 }
